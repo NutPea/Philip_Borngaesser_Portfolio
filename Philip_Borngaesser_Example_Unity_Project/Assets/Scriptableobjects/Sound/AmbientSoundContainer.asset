@@ -1,0 +1,266 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bee8a5bd53c37d344919015e200d16cb, type: 3}
+  m_Name: AmbientSoundContainer
+  m_EditorClassIdentifier: 
+  defaultMixerGroup: {fileID: -6254460208932315251, guid: 96c116b156f78be4d9343feeba7d4f29, type: 2}
+  sounds:
+  - name: BanStone_Outside
+    soundClips: []
+    playFirstClip: 0
+    stopFirstClip: 0
+    inCouroutine: 0
+    canRepeatItself: 0
+    repeatTimer: 0.1
+    usedAudioSources: []
+    audioSetting:
+      output: {fileID: -6254460208932315251, guid: 96c116b156f78be4d9343feeba7d4f29, type: 2}
+      bypassEffects: 0
+      bypassListenerEffects: 0
+      bypassReverbZones: 0
+      playOnAwake: 0
+      loop: 0
+      priority: 128
+      volume: 1
+      pitch: 1
+      stereoPan: 0
+      spatialBlend: 0
+      reverbZoneMix: 1
+      spread: 0
+      dopplerLevel: 1
+      volumeRolloff: 0
+      minDistance: 0
+      maxDistance: 500
+      RolloffCustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SpartialBlendCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SpreadCustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ReverbZoneMixCustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - name: Pesture
+    soundClips: []
+    playFirstClip: 0
+    stopFirstClip: 0
+    inCouroutine: 0
+    canRepeatItself: 0
+    repeatTimer: 0.1
+    usedAudioSources: []
+    audioSetting:
+      output: {fileID: -6254460208932315251, guid: 96c116b156f78be4d9343feeba7d4f29, type: 2}
+      bypassEffects: 0
+      bypassListenerEffects: 0
+      bypassReverbZones: 0
+      playOnAwake: 0
+      loop: 0
+      priority: 128
+      volume: 1
+      pitch: 1
+      stereoPan: 0
+      spatialBlend: 0
+      reverbZoneMix: 1
+      spread: 0
+      dopplerLevel: 1
+      volumeRolloff: 0
+      minDistance: 0
+      maxDistance: 500
+      RolloffCustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SpartialBlendCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SpreadCustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ReverbZoneMixCustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - name: HauntedCity
+    soundClips: []
+    playFirstClip: 0
+    stopFirstClip: 0
+    inCouroutine: 0
+    canRepeatItself: 0
+    repeatTimer: 0.1
+    usedAudioSources: []
+    audioSetting:
+      output: {fileID: -6254460208932315251, guid: 96c116b156f78be4d9343feeba7d4f29, type: 2}
+      bypassEffects: 0
+      bypassListenerEffects: 0
+      bypassReverbZones: 0
+      playOnAwake: 0
+      loop: 0
+      priority: 128
+      volume: 1
+      pitch: 1
+      stereoPan: 0
+      spatialBlend: 0
+      reverbZoneMix: 1
+      spread: 0
+      dopplerLevel: 1
+      volumeRolloff: 0
+      minDistance: 0
+      maxDistance: 500
+      RolloffCustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SpartialBlendCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SpreadCustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ReverbZoneMixCustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - name: BrokenCliffs
+    soundClips: []
+    playFirstClip: 0
+    stopFirstClip: 0
+    inCouroutine: 0
+    canRepeatItself: 0
+    repeatTimer: 0.1
+    usedAudioSources: []
+    audioSetting:
+      output: {fileID: -6254460208932315251, guid: 96c116b156f78be4d9343feeba7d4f29, type: 2}
+      bypassEffects: 0
+      bypassListenerEffects: 0
+      bypassReverbZones: 0
+      playOnAwake: 0
+      loop: 0
+      priority: 128
+      volume: 1
+      pitch: 1
+      stereoPan: 0
+      spatialBlend: 0
+      reverbZoneMix: 1
+      spread: 0
+      dopplerLevel: 1
+      volumeRolloff: 0
+      minDistance: 0
+      maxDistance: 500
+      RolloffCustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SpartialBlendCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SpreadCustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ReverbZoneMixCustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  - name: 
+    soundClips: []
+    playFirstClip: 0
+    stopFirstClip: 0
+    inCouroutine: 0
+    canRepeatItself: 0
+    repeatTimer: 0.1
+    usedAudioSources: []
+    audioSetting:
+      output: {fileID: -6254460208932315251, guid: 96c116b156f78be4d9343feeba7d4f29, type: 2}
+      bypassEffects: 0
+      bypassListenerEffects: 0
+      bypassReverbZones: 0
+      playOnAwake: 0
+      loop: 0
+      priority: 128
+      volume: 1
+      pitch: 1
+      stereoPan: 0
+      spatialBlend: 0
+      reverbZoneMix: 1
+      spread: 0
+      dopplerLevel: 1
+      volumeRolloff: 0
+      minDistance: 0
+      maxDistance: 500
+      RolloffCustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SpartialBlendCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      SpreadCustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ReverbZoneMixCustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
