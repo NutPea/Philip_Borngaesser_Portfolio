@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2592316176015928990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94fe22297287ebc41b75aa824af201ef, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  dialogueText: Look over there !
+  GUID: 9392fdf2-6534-437c-991d-1cbec2d71abf
+  dialogueCollection: {fileID: 0}
+  dialogueViewPosition:
+    serializedVersion: 2
+    x: -289.84998
+    y: 223.00005
+    width: 190
+    height: 96
+  autoConnectedNode: {fileID: 7584871067517419483}
+  connectedNodes: []
+  connectedNodesText: []
+  nodeColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19e9b692b99ace4b85a6781c7bc08ac, type: 3}
+  m_Name: Monolog_Tutorial_InteractionTutorial
+  m_EditorClassIdentifier: 
+  startNodeData: {fileID: -2592316176015928990}
+  dialogueNodeDatas:
+  - {fileID: 7584871067517419483}
+  exposedProperties: []
+--- !u!114 &7584871067517419483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94fe22297287ebc41b75aa824af201ef, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  dialogueText: 'There are some obstacles [You can interact with something when you 
+    move against it]   '
+  GUID: 
+  dialogueCollection: {fileID: 0}
+  dialogueViewPosition:
+    serializedVersion: 2
+    x: 201.69388
+    y: 223.00002
+    width: 476
+    height: 96
+  autoConnectedNode: {fileID: 0}
+  connectedNodes: []
+  connectedNodesText: []
+  nodeColor: {r: 0, g: 0, b: 0, a: 0}

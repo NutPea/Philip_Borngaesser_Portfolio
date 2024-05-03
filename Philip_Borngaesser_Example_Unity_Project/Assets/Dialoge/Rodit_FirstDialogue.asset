@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8433273021461639485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94fe22297287ebc41b75aa824af201ef, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  dialogueText: Oh hello a friendly face.
+  GUID: 582bc6d3-3ac0-452d-af25-77145ee2117e
+  dialogueCollection: {fileID: 0}
+  dialogueViewPosition:
+    serializedVersion: 2
+    x: -427
+    y: 200
+    width: 284
+    height: 134
+  autoConnectedNode: {fileID: 2188870975434157641}
+  connectedNodes:
+  - {fileID: 0}
+  connectedNodesText:
+  - 
+  nodeColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &-7340222752659761542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94fe22297287ebc41b75aa824af201ef, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  dialogueText: I am kind of lost here. Do you know a way up to the city?
+  GUID: a5922e27-66be-4d87-9b67-ec26770f19c1
+  dialogueCollection: {fileID: 0}
+  dialogueViewPosition:
+    serializedVersion: 2
+    x: 430.45023
+    y: 199.99997
+    width: 219
+    height: 96
+  autoConnectedNode: {fileID: 7854183753611418878}
+  connectedNodes: []
+  connectedNodesText: []
+  nodeColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19e9b692b99ace4b85a6781c7bc08ac, type: 3}
+  m_Name: Rodit_FirstDialogue
+  m_EditorClassIdentifier: 
+  startNodeData: {fileID: -8433273021461639485}
+  dialogueNodeDatas:
+  - {fileID: 2188870975434157641}
+  - {fileID: 7854183753611418878}
+  - {fileID: -7340222752659761542}
+  exposedProperties:
+  - PropertyName: miep1
+    PropertyValue: New Value
+  - PropertyName: New Name
+    PropertyValue: New Value
+--- !u!114 &2188870975434157641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94fe22297287ebc41b75aa824af201ef, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  dialogueText: 'My name is Prodit. I have traveled from far away to visit my ancestors. '
+  GUID: 558c62cc-b77f-44b7-b494-4f9433dc5b4f
+  dialogueCollection: {fileID: 0}
+  dialogueViewPosition:
+    serializedVersion: 2
+    x: -14.099998
+    y: 200.00003
+    width: 219
+    height: 96
+  autoConnectedNode: {fileID: -7340222752659761542}
+  connectedNodes: []
+  connectedNodesText: []
+  nodeColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &7854183753611418878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94fe22297287ebc41b75aa824af201ef, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  dialogueText: If you find a way please tell me. I will wait here.
+  GUID: 35de34ab-8d39-4159-8c68-b3bd4398eba5
+  dialogueCollection: {fileID: 0}
+  dialogueViewPosition:
+    serializedVersion: 2
+    x: 797.6001
+    y: 200.00002
+    width: 217
+    height: 96
+  autoConnectedNode: {fileID: 0}
+  connectedNodes: []
+  connectedNodesText: []
+  nodeColor: {r: 0, g: 0, b: 0, a: 0}

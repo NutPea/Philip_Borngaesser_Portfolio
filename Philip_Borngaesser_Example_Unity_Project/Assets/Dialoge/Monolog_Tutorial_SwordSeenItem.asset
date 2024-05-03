@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19e9b692b99ace4b85a6781c7bc08ac, type: 3}
+  m_Name: Monolog_Tutorial_SwordSeenItem
+  m_EditorClassIdentifier: 
+  startNodeData: {fileID: 18026805668082478}
+  dialogueNodeDatas:
+  - {fileID: 7710683032103947540}
+  - {fileID: 9222454689870052308}
+  exposedProperties: []
+--- !u!114 &18026805668082478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94fe22297287ebc41b75aa824af201ef, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  dialogueText: Ohh you found a worn sword.
+  GUID: 54593d00-7b68-4c0e-8186-2c9632e9fa19
+  dialogueCollection: {fileID: 0}
+  dialogueViewPosition:
+    serializedVersion: 2
+    x: -281.30008
+    y: 182.00002
+    width: 247
+    height: 96
+  autoConnectedNode: {fileID: 7710683032103947540}
+  connectedNodes: []
+  connectedNodesText: []
+  nodeColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &7710683032103947540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94fe22297287ebc41b75aa824af201ef, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  dialogueText: I hope you know how to use it. [You will find different items in
+    the world. They have different usecases]
+  GUID: d0994787-a3da-4351-8ad7-8f31d3107715
+  dialogueCollection: {fileID: 0}
+  dialogueViewPosition:
+    serializedVersion: 2
+    x: 33.870014
+    y: 182.00002
+    width: 559
+    height: 96
+  autoConnectedNode: {fileID: 9222454689870052308}
+  connectedNodes: []
+  connectedNodesText: []
+  nodeColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &9222454689870052308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94fe22297287ebc41b75aa824af201ef, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  dialogueText: Dont cut yourself !
+  GUID: 6c97f997-1712-4089-b237-4742b3e399e7
+  dialogueCollection: {fileID: 0}
+  dialogueViewPosition:
+    serializedVersion: 2
+    x: 663.99994
+    y: 182
+    width: 311
+    height: 96
+  autoConnectedNode: {fileID: 0}
+  connectedNodes: []
+  connectedNodesText: []
+  nodeColor: {r: 0, g: 0, b: 0, a: 0}

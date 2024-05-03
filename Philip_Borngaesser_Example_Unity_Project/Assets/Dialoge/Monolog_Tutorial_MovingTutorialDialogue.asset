@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1258231501955511276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94fe22297287ebc41b75aa824af201ef, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  dialogueText: 'Move out of this cursed cave ! [ You can move with W/A/S/D] '
+  GUID: db5aaa5c-dafe-4592-b59c-2906adb6d909
+  dialogueCollection: {fileID: 0}
+  dialogueViewPosition:
+    serializedVersion: 2
+    x: 339.15
+    y: 199.99998
+    width: 337
+    height: 96
+  autoConnectedNode: {fileID: 0}
+  connectedNodes: []
+  connectedNodesText: []
+  nodeColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19e9b692b99ace4b85a6781c7bc08ac, type: 3}
+  m_Name: Monolog_Tutorial_MovingTutorialDialogue
+  m_EditorClassIdentifier: 
+  startNodeData: {fileID: 4483067524259387703}
+  dialogueNodeDatas:
+  - {fileID: -1258231501955511276}
+  exposedProperties: []
+--- !u!114 &4483067524259387703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94fe22297287ebc41b75aa824af201ef, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  dialogueText: 'Vessel! Oh thankfully you are finally awake. '
+  GUID: ee69d1b2-2925-43bd-9b6c-6102a419eb51
+  dialogueCollection: {fileID: 0}
+  dialogueViewPosition:
+    serializedVersion: 2
+    x: -98.24747
+    y: 188.09752
+    width: 284
+    height: 96
+  autoConnectedNode: {fileID: -1258231501955511276}
+  connectedNodes: []
+  connectedNodesText: []
+  nodeColor: {r: 0, g: 0, b: 0, a: 0}

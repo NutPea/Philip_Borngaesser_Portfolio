@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5939484995301912948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94fe22297287ebc41b75aa824af201ef, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  dialogueText: I lost her. "Wiwiwiwi"
+  GUID: 1f16b11d-0005-420c-b136-50d2db68c2d7
+  dialogueCollection: {fileID: 0}
+  dialogueViewPosition:
+    serializedVersion: 2
+    x: -126
+    y: 200
+    width: 190
+    height: 96
+  autoConnectedNode: {fileID: 1029677816808806815}
+  connectedNodes: []
+  connectedNodesText: []
+  nodeColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &-1503039721158501283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94fe22297287ebc41b75aa824af201ef, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  dialogueText: I miss her. "Wiwiwiw"
+  GUID: 693c281a-437c-48bc-ab6f-a4dd47d4d5f5
+  dialogueCollection: {fileID: 0}
+  dialogueViewPosition:
+    serializedVersion: 2
+    x: 485.79517
+    y: 200.00003
+    width: 313
+    height: 96
+  autoConnectedNode: {fileID: 5456695100183576535}
+  connectedNodes: []
+  connectedNodesText: []
+  nodeColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19e9b692b99ace4b85a6781c7bc08ac, type: 3}
+  m_Name: Kronan_StartDialogue
+  m_EditorClassIdentifier: 
+  startNodeData: {fileID: -5939484995301912948}
+  dialogueNodeDatas:
+  - {fileID: -1503039721158501283}
+  - {fileID: 5456695100183576535}
+  - {fileID: 1029677816808806815}
+  exposedProperties: []
+--- !u!114 &1029677816808806815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94fe22297287ebc41b75aa824af201ef, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  dialogueText: Somewhere in the gras. Somewhere ...
+  GUID: 9cdcf84b-7807-40b3-9981-43eb375da52c
+  dialogueCollection: {fileID: 0}
+  dialogueViewPosition:
+    serializedVersion: 2
+    x: 230.79515
+    y: 200.00003
+    width: 313
+    height: 96
+  autoConnectedNode: {fileID: -1503039721158501283}
+  connectedNodes: []
+  connectedNodesText: []
+  nodeColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &5456695100183576535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94fe22297287ebc41b75aa824af201ef, type: 3}
+  m_Name: DialogueNodeData
+  m_EditorClassIdentifier: 
+  dialogueText: She must be somewhere. "Wewewe"
+  GUID: 8d2d52f5-211b-4cad-87b9-5e6315bbe5d1
+  dialogueCollection: {fileID: 0}
+  dialogueViewPosition:
+    serializedVersion: 2
+    x: 726.79517
+    y: 200.00003
+    width: 311
+    height: 96
+  autoConnectedNode: {fileID: 0}
+  connectedNodes: []
+  connectedNodesText: []
+  nodeColor: {r: 0, g: 0, b: 0, a: 0}

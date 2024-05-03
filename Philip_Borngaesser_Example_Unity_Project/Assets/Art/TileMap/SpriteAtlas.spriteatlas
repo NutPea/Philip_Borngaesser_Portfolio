@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 3b029865522c3b1439a7af164c3026ed, type: 3}
+    - {fileID: 2800000, guid: 2de20dae1016ad949a8c237bac5f6dcb, type: 3}
+    - {fileID: 2800000, guid: f008f6d1a114be84696cc278a438aac6, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -472074663, guid: f008f6d1a114be84696cc278a438aac6, type: 3}
+  - {fileID: -598071429, guid: f008f6d1a114be84696cc278a438aac6, type: 3}
+  - {fileID: -1395764141, guid: f008f6d1a114be84696cc278a438aac6, type: 3}
+  - {fileID: -53693839, guid: f008f6d1a114be84696cc278a438aac6, type: 3}
+  - {fileID: 1295671566, guid: f008f6d1a114be84696cc278a438aac6, type: 3}
+  - {fileID: -1889251561, guid: 3b029865522c3b1439a7af164c3026ed, type: 3}
+  - {fileID: -1851373407, guid: 3b029865522c3b1439a7af164c3026ed, type: 3}
+  - {fileID: -1609430443, guid: 3b029865522c3b1439a7af164c3026ed, type: 3}
+  - {fileID: 1104956268, guid: 3b029865522c3b1439a7af164c3026ed, type: 3}
+  - {fileID: 1116404991, guid: 3b029865522c3b1439a7af164c3026ed, type: 3}
+  - {fileID: 2007891337, guid: 2de20dae1016ad949a8c237bac5f6dcb, type: 3}
+  - {fileID: 2071249132, guid: 2de20dae1016ad949a8c237bac5f6dcb, type: 3}
+  - {fileID: 789903352, guid: 2de20dae1016ad949a8c237bac5f6dcb, type: 3}
+  - {fileID: -1449490375, guid: 2de20dae1016ad949a8c237bac5f6dcb, type: 3}
+  - {fileID: 2115060318, guid: 2de20dae1016ad949a8c237bac5f6dcb, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - banStoneColor_4
+  - banStoneColor_3
+  - banStoneColor_2
+  - banStoneColor_1
+  - banStoneColor_0
+  - medow_colors_1
+  - medow_colors_0
+  - medow_colors_3
+  - medow_colors_2
+  - medow_colors_4
+  - BrokenClifs_TileMap_1
+  - BrokenClifs_TileMap_0
+  - BrokenClifs_TileMap_3
+  - BrokenClifs_TileMap_2
+  - BrokenClifs_TileMap_4
+  m_RenderDataMap: {}
+  m_Tag: SpriteAtlas
+  m_IsVariant: 0

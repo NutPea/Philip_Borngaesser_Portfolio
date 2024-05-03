@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79f47d247c9f5cc4e9988ac712d94ccd, type: 3}
+  m_Name: NodeData
+  m_EditorClassIdentifier: 
+  grasPrefabs:
+  - {fileID: 3582920987071187347, guid: 805ddb86a76e80e43b8073ea305e4924, type: 3}
+  - {fileID: 8034729898906000504, guid: 8795f37f90d198949b9cf65dab1e42cb, type: 3}
+  - {fileID: 5168144986804182235, guid: e0f64cf56782f1a489a478b7e3a9cec3, type: 3}
+  - {fileID: 4574618497860038206, guid: b91d1b73fcf45364bb36f420581a2efe, type: 3}
+  stonePrefabs:
+  - {fileID: 3830820393353068938, guid: 7138b4d9c62a2bf48a52bf3ffbfd5fb5, type: 3}
+  - {fileID: 3312384797548806224, guid: 06079e699988d844a9ffd086701e3a83, type: 3}
+  - {fileID: 8286322851170833552, guid: 18b76fef324ab6245b294e4d15b80d87, type: 3}
+  flowerPrefabs:
+  - {fileID: 2906199083515982739, guid: 676fd53aeea2b6e4c96702116a5d68c7, type: 3}
+  - {fileID: 3308072698780557311, guid: 144cb76259b139c46959ad09e5009438, type: 3}
